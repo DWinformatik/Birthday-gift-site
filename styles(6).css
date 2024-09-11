@@ -1,0 +1,92 @@
+body{
+    display: block;
+    text-align: center;
+    text-shadow: 0px 0px 5px black;
+    color: aliceblue;
+    background: linear-gradient(rgb(16, 194, 120),rgb(30, 225, 255));
+        font-family: "Happy Monkey", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 40px;
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#age{
+    background: rgb(255, 40, 83);
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 50px 0 20px 0;
+}
+#date{
+    background: rgb(255, 40, 83);
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 0;
+}
+
+#pic{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px solid rgb(255, 40, 83);
+}
+.gift-section{
+    margin-top: 200px;
+}
+.gift-title{
+    margin-bottom: 30px;
+}
+
+.hint{
+    margin-top: 0;
+}
+
+.gift-img{
+    height: 800px;
+    width: 800px;
+    margin: 0 auto;
+    border: 10px solid aliceblue;
+    border-radius: 10px;
+    background-image: url("gift.png");
+    background-size: cover;
+}
+#gif1:hover{
+    background-image: url("https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExaG5lNmoyb2tmdW1peW95ejZsZTY3NGM1bjM3dGQzcmxmNDBnbHA0ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MeIucAjPKoA120R7sN/giphy.gif");
+}
+
+#gif2:hover{
+    background-image: url(https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2Q4bHg1bm91dzgxY2k3NTNhbWdueXhsMmg4ZDR5M3Qzb2c4emtwdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3PzmBpZt0iimrcWvfV/giphy.gif);
+}
+
+#gif3:hover{
+    background-image:url(https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHQ1MnRranZ2cHowb281bmRldnQ0a3VzaWF6YW9mMmZ2amd1NXd1YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MJlPfL0HYQMYftWKt6/giphy.gif);
+}
+#gif4:hover{
+        background-image:url(https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMndwZTJ6ZHB2dDJvcXNmZ3c2YzZkOGVrOGt0c2dsamw1ZW4wMDk3cyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/12YliPpsL8HJPG/giphy.gif);
+}
+
+#gif5:hover{
+    background-image: url(https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWNzNWF1cmszYmg5eG5oZTUweTIxODdsbjNhMGJ0MHNtejhsOGZuaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BPJmthQ3YRwD6QqcVD/giphy.gif);
+}
+
+#gif5{
+    height: 400px;
+}
+
+.footer-div{
+    margin: 150px auto 100px auto;
+    font-style: italic;
+}
+.footer{
+    margin: 0;
+}
+
+a{
+  color: aliceblue;
+}
